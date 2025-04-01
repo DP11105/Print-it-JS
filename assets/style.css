@@ -73,7 +73,7 @@ h3{
 }
 
 p, li {
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 }
@@ -125,12 +125,18 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+	display: flex;
 }
-#banner .arrow_left {
-	left: 10px;
+
+#banner .arrow-left {
+	position: absolute;
+	right: 700px;
+
 }
-#banner .arrow_right {
-	right: 10px;
+#banner .arrow-right {
+	position: relative;
+	left: 700px;
+	
 }
 /* Gestion des points du carrousel */
 .dots {
